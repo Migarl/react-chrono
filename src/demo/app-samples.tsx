@@ -89,6 +89,7 @@ export const VerticalBasic: FunctionComponent<{
         onItemSelected={(selected) => console.log(selected.cardTitle)}
         enableOutline
         timelineCircleDimension={20}
+        allowDynamicUpdate={true}
       />
     </ComponentContainerTree>
   </Vertical>
